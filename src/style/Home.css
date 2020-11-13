@@ -1,0 +1,45 @@
+.cover {
+  background-image: url("../img/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 225px;
+}
+
+
+
+.product-gallery {
+  margin: 2rem 3rem;
+  margin-bottom: 6rem;
+}
+
+.product-gallery h2 {
+  font-weight: 450;
+  margin-left: 2rem;
+}
+
+.product-gallery .products {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more button {
+  font-size: 1.05rem;
+  font-weight: 550;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.load-more button:hover {
+  border-width: 5px;
+  padding: 0.7rem;
+}

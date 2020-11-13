@@ -1,0 +1,32 @@
+.categories {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 1001;
+}
+.categories .container {
+  width: 95%;
+  background: white;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+.categories .container .col {
+  flex-basis: 18rem;
+  margin-bottom: 2rem;
+}
+.categories .container .col ul {
+  list-style: none;
+}
+.categories .container .col ul li {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+.categories .container .col ul li h4 {
+  margin-bottom: 1rem;
+}

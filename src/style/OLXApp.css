@@ -1,0 +1,27 @@
+.olx-app {
+  background: #f7f8fa;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+.olx-app .col {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.border-right {
+  border-right: 2px solid #cacaca;
+  height: 100%;
+}
+
+.border-right h2 {
+  font-size: 2rem;
+}
+.border-right p {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+.social img {
+  height: 2.5rem;
+  margin: 1rem 0.25rem;
+}

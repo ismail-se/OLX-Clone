@@ -1,0 +1,64 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1002;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 1rem;
+  z-index: 1002;
+  width: 25rem;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.close-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 1.3rem;
+}
+
+.continue {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.continue img {
+  width: 1.1rem;
+  margin-right: 0.4rem;
+}
+
+.share {
+  font-size: 0.8rem;
+  margin: 1.4rem 0;
+}
+.policy {
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 0 1rem;
+}
+.policy a {
+  text-decoration: none;
+}

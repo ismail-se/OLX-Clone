@@ -1,0 +1,47 @@
+.footer-nav {
+  border: 1px solid #cacaca;
+  display: flex;
+  background-color: #eaeeef;
+  color: #858588;
+  font-size: 0.8rem;
+  padding: 1.2rem 2rem 2rem 2rem;
+}
+.footer-nav .col {
+  flex: 1;
+}
+.footer-social {
+  margin-right: 0.6rem;
+}
+
+.footer-nav ul {
+  list-style: none;
+}
+.footer-nav ul li {
+  margin: 0.3rem 0;
+}
+.heading {
+  color: #1f270f;
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-bottom: 1rem !important;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #003034;
+  color: #fff;
+  padding: 1.2rem 2rem;
+  font-size: 0.8rem;
+}
+
+.bold {
+  margin-right: 0.6rem;
+}
+.store {
+  margin-top: 1rem;
+}
+.store img {
+  margin-right: 0.5rem;
+}
